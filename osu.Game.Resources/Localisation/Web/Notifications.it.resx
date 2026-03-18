@@ -412,6 +412,9 @@
   <data name="item.user_achievement.user_achievement_unlock.user_achievement_unlock_group" xml:space="preserve">
     <value>Medaglie sbloccate!</value>
   </data>
+  <data name="mail.news" xml:space="preserve">
+    <value>Notizie</value>
+  </data>
   <data name="mail.beatmapset.beatmap_owner_change.beatmap_owner_change" xml:space="preserve">
     <value>Sei diventato ospite della beatmap "{0}"</value>
   </data>
@@ -465,9 +468,6 @@
   </data>
   <data name="mail.news_post.comment.comment_new" xml:space="preserve">
     <value>La notizia "{0}" ha nuovi commenti</value>
-  </data>
-  <data name="mail.news_post.news_post.news_post_new" xml:space="preserve">
-    <value>Notizie ({0}): "{1}"</value>
   </data>
   <data name="mail.forum_topic.forum_topic_reply.forum_topic_reply" xml:space="preserve">
     <value>Ci sono nuove risposte in "{0}"</value>

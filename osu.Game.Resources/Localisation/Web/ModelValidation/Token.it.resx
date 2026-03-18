@@ -61,6 +61,9 @@
   <data name="invalid_scope.all_scope_no_client_credentials" xml:space="preserve">
     <value>* non è consentito con le Credenziali del Client</value>
   </data>
+  <data name="invalid_scope.all_scope_no_mix" xml:space="preserve">
+    <value>* non è valido con altri scope</value>
+  </data>
   <data name="invalid_scope.client_missing_owner" xml:space="preserve">
     <value>Il client ha un proprietario mancante.</value>
   </data>
@@ -68,7 +71,7 @@
     <value>Il client non è autorizzato.</value>
   </data>
   <data name="invalid_scope.delegate_bot_only" xml:space="preserve">
-    <value>La delegazione con le credenziali del client è solo disponibile ai chat bot.</value>
+    <value>La delegazione con le Credenziali Client è disponibile solo ai bot.</value>
   </data>
   <data name="invalid_scope.client_credentials_only" xml:space="preserve">
     <value>Questo scope è valido solo per token client_credentials.</value>
@@ -83,6 +86,6 @@
     <value>I token senza scope non sono validi.</value>
   </data>
   <data name="invalid_scope.bot_only" xml:space="preserve">
-    <value>Questo scopo è solo disponibile ai chat bot o ai tuoi client.</value>
+    <value>Questo scope è disponibile solo per i bot o i tuoi client.</value>
   </data>
 </root>

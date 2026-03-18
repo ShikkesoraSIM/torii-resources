@@ -571,6 +571,9 @@
   <data name="show.extra.historical.replays_watched_counts.count_label" xml:space="preserve">
     <value>Переглянутих повторів</value>
   </data>
+  <data name="show.extra.historical.score_replay_stats.title" xml:space="preserve">
+    <value>Найбільш переглянуті повтори</value>
+  </data>
   <data name="show.extra.kudosu.recent_entries" xml:space="preserve">
     <value>Останні обміни</value>
   </data>
@@ -762,6 +765,9 @@
   </data>
   <data name="show.info.website" xml:space="preserve">
     <value>Сайт</value>
+  </data>
+  <data name="show.matchmaking.title" xml:space="preserve">
+    <value>Швидка гра</value>
   </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>Він міг змінити своє ім'я користувача.</value>
