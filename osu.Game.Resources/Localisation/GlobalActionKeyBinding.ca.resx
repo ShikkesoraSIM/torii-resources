@@ -190,6 +190,12 @@
   <data name="random_skin" xml:space="preserve">
     <value>Skin aleatòria</value>
   </data>
+  <data name="previous_skin" xml:space="preserve">
+    <value>Aspecte anterior</value>
+  </data>
+  <data name="next_skin" xml:space="preserve">
+    <value>Següent aspecte</value>
+  </data>
   <data name="toggle_pause_replay" xml:space="preserve">
     <value>Fes una pausa o reprèn la reproducció</value>
   </data>
@@ -320,16 +326,16 @@
     <value>Vés al punt de mostra següent</value>
   </data>
   <data name="editor_add_bookmark" xml:space="preserve">
-    <value>Afegeix punt de llibre</value>
+    <value>Afegeix una marca</value>
   </data>
   <data name="editor_remove_closest_bookmark" xml:space="preserve">
-    <value>Elimina el punt de llibre més proper</value>
+    <value>Trau la marca més propera</value>
   </data>
   <data name="editor_seek_to_previous_bookmark" xml:space="preserve">
-    <value>Cerca el punt de llibre anterior</value>
+    <value>Cerca la marca anterior</value>
   </data>
   <data name="editor_seek_to_next_bookmark" xml:space="preserve">
-    <value>Cerca el punt de llibre següent</value>
+    <value>Cerca la marca següent</value>
   </data>
   <data name="absolute_scroll_song_list" xml:space="preserve">
     <value>Desplaçament absolut a la llista de pistes</value>

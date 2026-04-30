@@ -67,9 +67,6 @@
   <data name="empty.playlists" xml:space="preserve">
     <value>歌单</value>
   </data>
-  <data name="empty.quickplay" xml:space="preserve">
-    <value>匹配模式</value>
-  </data>
   <data name="empty.realtime" xml:space="preserve">
     <value>多人</value>
   </data>
@@ -99,6 +96,9 @@
   </data>
   <data name="room.errors.name_too_long" xml:space="preserve">
     <value>房间名称过长。</value>
+  </data>
+  <data name="room.errors.too_many_playlist_items" xml:space="preserve">
+    <value>歌单内项目数量过多。</value>
   </data>
   <data name="room.status.active" xml:space="preserve">
     <value>开放</value>

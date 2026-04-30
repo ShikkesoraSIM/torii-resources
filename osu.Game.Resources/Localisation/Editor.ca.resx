@@ -64,6 +64,9 @@
   <data name="waveform_opacity" xml:space="preserve">
     <value>Opacitat de la forma d'ona</value>
   </data>
+  <data name="show_storyboard" xml:space="preserve">
+    <value>Mostra tauler</value>
+  </data>
   <data name="show_hit_markers" xml:space="preserve">
     <value>Mostra els marcadors de cop</value>
   </data>
@@ -84,6 +87,9 @@
   </data>
   <data name="export_for_compatibility" xml:space="preserve">
     <value>Per a compatibilidad (.osz)</value>
+  </data>
+  <data name="export_guest_difficulty" xml:space="preserve">
+    <value>Dificultat d'invitat (.osu)</value>
   </data>
   <data name="create_new_difficulty" xml:space="preserve">
     <value>Crear nova dificultat</value>
@@ -155,22 +161,22 @@
     <value>Mostra les marques</value>
   </data>
   <data name="bookmarks" xml:space="preserve">
-    <value>Punts de llibre</value>
+    <value>Marques</value>
   </data>
   <data name="add_bookmark" xml:space="preserve">
-    <value>Afegir punt de llibre</value>
+    <value>Afegeix una marca</value>
   </data>
   <data name="remove_closest_bookmark" xml:space="preserve">
-    <value>Eliminar punt de llibre</value>
+    <value>Trau la marca més propera</value>
   </data>
   <data name="seek_to_previous_bookmark" xml:space="preserve">
-    <value>Cercar l'anterior punt de llibre</value>
+    <value>Cerca la marca anterior</value>
   </data>
   <data name="seek_to_next_bookmark" xml:space="preserve">
-    <value>Cercar el següent punt de llibre</value>
+    <value>Cerca la marca següent</value>
   </data>
   <data name="reset_bookmarks" xml:space="preserve">
-    <value>Reiniciar punts de llibre</value>
+    <value>Restableix les marques</value>
   </data>
   <data name="open_info_page" xml:space="preserve">
     <value>Obre la pàgina d'informació del mapa</value>

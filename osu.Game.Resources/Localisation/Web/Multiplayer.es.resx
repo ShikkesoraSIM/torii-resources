@@ -67,9 +67,6 @@
   <data name="empty.playlists" xml:space="preserve">
     <value>lista de juego</value>
   </data>
-  <data name="empty.quickplay" xml:space="preserve">
-    <value>partida rápida</value>
-  </data>
   <data name="empty.realtime" xml:space="preserve">
     <value>partida multijugador</value>
   </data>
@@ -99,6 +96,9 @@
   </data>
   <data name="room.errors.name_too_long" xml:space="preserve">
     <value>El nombre de la sala es demasiado largo.</value>
+  </data>
+  <data name="room.errors.too_many_playlist_items" xml:space="preserve">
+    <value>Hay demasiados elementos en la lista de juego actual.</value>
   </data>
   <data name="room.status.active" xml:space="preserve">
     <value>activo</value>
