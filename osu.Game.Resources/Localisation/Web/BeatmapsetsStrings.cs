@@ -470,9 +470,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowScoreboardSupporterLink(LocalisableString link) => new TranslatableString(getKey(@"show.scoreboard.supporter-link"), @"Click <a href=""{0}"">here</a> to see all the fancy features that you get!", link);
 
         /// <summary>
-        /// "You need to be an osu!supporter to access the friend, country, or mod-specific rankings!"
+        /// "You need to be a Torii supporter to access the friend, country, or mod-specific rankings!"
         /// </summary>
-        public static LocalisableString ShowScoreboardSupporterOnly => new TranslatableString(getKey(@"show.scoreboard.supporter-only"), @"You need to be an osu!supporter to access the friend, country, or mod-specific rankings!");
+        public static LocalisableString ShowScoreboardSupporterOnly => new TranslatableString(getKey(@"show.scoreboard.supporter-only"), @"You need to be a Torii supporter to access the friend, country, or mod-specific rankings!");
 
         /// <summary>
         /// "Team Ranking"

@@ -867,7 +867,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "osu!supporter tag"
         /// </summary>
-        public static LocalisableString ListingSearchSupporterFilterQuoteLinkText => new TranslatableString(getKey(@"listing.search.supporter_filter_quote.link_text"), @"osu!supporter tag");
+        public static LocalisableString ListingSearchSupporterFilterQuoteLinkText => new TranslatableString(getKey(@"listing.search.supporter_filter_quote.link_text"), @"Torii supporter tag");
 
         /// <summary>
         /// "browse user tags"

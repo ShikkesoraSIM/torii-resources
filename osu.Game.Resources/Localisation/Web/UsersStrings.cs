@@ -507,7 +507,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "osu!supporter"
         /// </summary>
-        public static LocalisableString ShowIsSupporter => new TranslatableString(getKey(@"show.is_supporter"), @"osu!supporter");
+        public static LocalisableString ShowIsSupporter => new TranslatableString(getKey(@"show.is_supporter"), @"Torii supporter");
 
         /// <summary>
         /// "Joined {0}"
@@ -1257,7 +1257,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "osu!supporter"
         /// </summary>
-        public static LocalisableString ShowPageRestrictionInfoLink => new TranslatableString(getKey(@"show.page.restriction_info.link"), @"osu!supporter");
+        public static LocalisableString ShowPageRestrictionInfoLink => new TranslatableString(getKey(@"show.page.restriction_info.link"), @"Torii supporter");
 
         /// <summary>
         /// "Contributed {0}"
