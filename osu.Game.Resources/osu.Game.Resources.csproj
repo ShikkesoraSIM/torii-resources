@@ -4,7 +4,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);1591</NoWarn>
     <Title>osu!resources</Title>
-    <Product>osu!resources</Product>
+    <Product>Torii Resources</Product>
     <Company>ppy Pty Ltd</Company>
   </PropertyGroup>
   <PropertyGroup Label="Nuget">
@@ -26,6 +26,9 @@
     <EmbeddedResource Include="Shaders\**\*" />
     <EmbeddedResource Include="Textures\**\*" />
     <EmbeddedResource Include="Tracks\**\*" />
+    <!-- tooling and docs, no reason to travel inside the dll -->
+    <EmbeddedResource Remove="**\*.sh" />
+    <EmbeddedResource Remove="**\README.md" />
   </ItemGroup>
   <ItemGroup>
     <!-- Resolves references to LocalisableString. -->
