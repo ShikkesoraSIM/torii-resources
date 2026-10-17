@@ -19,16 +19,33 @@
     <PackageTags>osu game resources</PackageTags>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Beatmaps\**\*" />
-    <EmbeddedResource Include="Fonts\**\*" />
-    <EmbeddedResource Include="Samples\**\*" />
-    <EmbeddedResource Include="Skins\**\*" />
-    <EmbeddedResource Include="Shaders\**\*" />
-    <EmbeddedResource Include="Textures\**\*" />
-    <EmbeddedResource Include="Tracks\**\*" />
+    <EmbeddedResource Include="Beatmaps\**\*">
+      <Link>Beatmaps\%(RecursiveDir)%(Filename)%(Extension)</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fonts\**\*">
+      <Link>Fonts\%(RecursiveDir)%(Filename)%(Extension)</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Samples\**\*">
+      <Link>Samples\%(RecursiveDir)%(Filename)%(Extension)</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Skins\**\*">
+      <Link>Skins\%(RecursiveDir)%(Filename)%(Extension)</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shaders\**\*">
+      <Link>Shaders\%(RecursiveDir)%(Filename)%(Extension)</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Textures\**\*">
+      <Link>Textures\%(RecursiveDir)%(Filename)%(Extension)</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tracks\**\*">
+      <Link>Tracks\%(RecursiveDir)%(Filename)%(Extension)</Link>
+    </EmbeddedResource>
     <!-- tooling and docs, no reason to travel inside the dll -->
     <EmbeddedResource Remove="**\*.sh" />
     <EmbeddedResource Remove="**\README.md" />
+    <EmbeddedResource Update="Localisation\**\*.resx">
+      <Link>Localisation\%(RecursiveDir)%(Filename)%(Extension)</Link>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <!-- Resolves references to LocalisableString. -->
