@@ -163,6 +163,9 @@
   <data name="github_user.error.unverified_email" xml:space="preserve">
     <value>Bitte verifiziere deine primäre E-Mail-Adresse auf GitHub und versuche dann, dein Konto erneut zu verknüpfen.</value>
   </data>
+  <data name="notifications.beatmapset_discussion_reply" xml:space="preserve">
+    <value>Benachrichtigungen über Antworten in Beatmap-Diskussionen erhalten, an denen du teilnimmst</value>
+  </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>Erhalte Benachrichtigungen für neue Probleme auf qualifizierten Beatmaps von folgenden Modi</value>
   </data>
@@ -217,6 +220,33 @@
   <data name="notifications.options.push" xml:space="preserve">
     <value>Push</value>
   </data>
+  <data name="notifications.tooltips.beatmap_owner_change" xml:space="preserve">
+    <value>wenn du als Gastmapper auf einem Schwierigkeitsgrad hinzugefügt wirst</value>
+  </data>
+  <data name="notifications.tooltips.beatmapset:modding" xml:space="preserve">
+    <value>wenn gemerkte Beatmapdiskussionen Updates bekommen, oder es ein Problem oder Vorschlag für deine Beatmap gibt</value>
+  </data>
+  <data name="notifications.tooltips.channel_mention" xml:space="preserve">
+    <value>wenn du in einem öffentlichen Channel erwähnt wurdest</value>
+  </data>
+  <data name="notifications.tooltips.channel_message" xml:space="preserve">
+    <value>wenn du eine neue private Nachricht erhältst</value>
+  </data>
+  <data name="notifications.tooltips.channel_team" xml:space="preserve">
+    <value>wenn es in deinem Teamchat eine neue Nachricht gibt</value>
+  </data>
+  <data name="notifications.tooltips.comment_new" xml:space="preserve">
+    <value>wenn ein neuer Kommentar auf einem gefolgten Beitrag erscheint</value>
+  </data>
+  <data name="notifications.tooltips.forum_topic_reply" xml:space="preserve">
+    <value>wenn gemerkte Forenposts neue Antworten erhalten</value>
+  </data>
+  <data name="notifications.tooltips.mapping" xml:space="preserve">
+    <value>wenn ein Mapper, dem du folgst, eine Beatmap hochlädt</value>
+  </data>
+  <data name="notifications.tooltips.news_post" xml:space="preserve">
+    <value>wenn es Neuigkeiten gibt</value>
+  </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
     <value>Autorisierte Anwendungen</value>
   </data>
@@ -250,6 +280,9 @@
   <data name="options.beatmapset_download.no_video" xml:space="preserve">
     <value>ohne Video</value>
   </data>
+  <data name="playstyles.default_ruleset" xml:space="preserve">
+    <value>Standardspielmodus</value>
+  </data>
   <data name="playstyles.keyboard" xml:space="preserve">
     <value>Tastatur</value>
   </data>
@@ -267,6 +300,9 @@
   </data>
   <data name="privacy.friends_only" xml:space="preserve">
     <value>Blockiere Nachrichten von Benutzern, die nicht in deiner Freundesliste sind</value>
+  </data>
+  <data name="privacy.friends_only_info" xml:space="preserve">
+    <value>Dadurch werden in osu!lazer auch Einladungen in den Mehrspielermodus und zu Duellen im "Ranked Play"-Modus blockiert</value>
   </data>
   <data name="privacy.hide_online" xml:space="preserve">
     <value>Online-Status verbergen</value>

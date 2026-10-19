@@ -82,6 +82,9 @@
   <data name="show.download" xml:space="preserve">
     <value>Tải Xuống</value>
   </data>
+  <data name="show.no_diff_reduction_badge" xml:space="preserve">
+    <value>Thử thách</value>
+  </data>
   <data name="show.item.cleared" xml:space="preserve">
     <value>đã chơi</value>
   </data>
@@ -92,7 +95,7 @@
     <value>{0} liên kết không thể sử dụng để qua gói này.</value>
   </data>
   <data name="show.no_diff_reduction.link" xml:space="preserve">
-    <value>Mods làm giảm độ khó</value>
+    <value>Các mod giảm độ khó</value>
   </data>
   <data name="mode.artist" xml:space="preserve">
     <value>Nghệ Sĩ/Album</value>

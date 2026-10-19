@@ -60,6 +60,16 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString IndexGuestTitle => new TranslatableString(getKey(@"index.guest_title"), @"Beatmaps");
 
         /// <summary>
+        /// "{0} favourite|{0} favourites"
+        /// </summary>
+        public static LocalisableString OgpFavourites(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"ogp.favourites"), @"{0} favourite|{0} favourites", countDelimited), countDelimited, '|');
+
+        /// <summary>
+        /// "{0} play|{0} plays"
+        /// </summary>
+        public static LocalisableString OgpPlaycount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"ogp.playcount"), @"{0} play|{0} plays", countDelimited), countDelimited, '|');
+
+        /// <summary>
         /// "no beatmaps"
         /// </summary>
         public static LocalisableString PanelEmpty => new TranslatableString(getKey(@"panel.empty"), @"no beatmaps");
@@ -158,6 +168,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "Explicit"
         /// </summary>
         public static LocalisableString NsfwBadgeLabel => new TranslatableString(getKey(@"nsfw_badge.label"), @"Explicit");
+
+        /// <summary>
+        /// "Invalid rating."
+        /// </summary>
+        public static LocalisableString RateInvalid => new TranslatableString(getKey(@"rate.invalid"), @"Invalid rating.");
 
         /// <summary>
         /// "Discussion"
@@ -413,6 +428,26 @@ namespace osu.Game.Resources.Localisation.Web
         /// "This beatmap contains video"
         /// </summary>
         public static LocalisableString ShowInfoVideo => new TranslatableString(getKey(@"show.info.video"), @"This beatmap contains video");
+
+        /// <summary>
+        /// "Lazer Only"
+        /// </summary>
+        public static LocalisableString ShowLazerOnlyTitle => new TranslatableString(getKey(@"show.lazer_only.title"), @"Lazer Only");
+
+        /// <summary>
+        /// "Due to specific mechanics, this beatmap can only be played on osu!lazer."
+        /// </summary>
+        public static LocalisableString ShowLazerOnlyDescription => new TranslatableString(getKey(@"show.lazer_only.description"), @"Due to specific mechanics, this beatmap can only be played on osu!lazer.");
+
+        /// <summary>
+        /// "{0} to view scores set on this beatmap."
+        /// </summary>
+        public static LocalisableString ShowLazerOnlyScoreboardSwitchModeDefault(LocalisableString enableLink) => new TranslatableString(getKey(@"show.lazer_only.scoreboard_switch_mode._"), @"{0} to view scores set on this beatmap.", enableLink);
+
+        /// <summary>
+        /// "Enable lazer mode"
+        /// </summary>
+        public static LocalisableString ShowLazerOnlyScoreboardSwitchModeEnableLink => new TranslatableString(getKey(@"show.lazer_only.scoreboard_switch_mode.enable_link"), @"Enable lazer mode");
 
         /// <summary>
         /// "This beatmap contains explicit, offensive, or disturbing content. Would you like to view it anyway?"

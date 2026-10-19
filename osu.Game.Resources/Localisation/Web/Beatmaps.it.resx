@@ -94,6 +94,9 @@
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>Negato dall'ottenimento di kudosu.</value>
   </data>
+  <data name="discussions.include_replies" xml:space="preserve">
+    <value>Includi risposte</value>
+  </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>Questa difficoltà è stata eliminata, quindi non può più essere discussa.</value>
   </data>
@@ -126,6 +129,9 @@
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
     <value>Mostra eliminati</value>
+  </data>
+  <data name="discussions.show_other_replies" xml:space="preserve">
+    <value>Mostra risposte di altri</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Discussioni</value>
@@ -161,7 +167,7 @@
     <value>Questo post andrà nella discussione generale della beatmap. Per moddare questa beatmap, inizia il tuo messaggio con un timestamp (es. 00:12:345).</value>
   </data>
   <data name="discussions.message_hint.in_timeline" xml:space="preserve">
-    <value>Per moddare più timestamp, crea un post per ogni timestamp.</value>
+    <value>Per moddare più timestamp, posta più volte (un post per timestamp).</value>
   </data>
   <data name="discussions.message_placeholder.general" xml:space="preserve">
     <value>Scrivi qui per postare in Generale ({0})</value>
@@ -173,7 +179,7 @@
     <value>Scrivi qui per postare una revisione</value>
   </data>
   <data name="discussions.message_placeholder.timeline" xml:space="preserve">
-    <value>Scrivi qui per postare su Cronologia ({0})</value>
+    <value>Scrivi qui per postare sulla Cronologia ({0})</value>
   </data>
   <data name="discussions.message_type.disqualify" xml:space="preserve">
     <value>Squalifica</value>
@@ -230,7 +236,7 @@
     <value>Posta Suggerimento</value>
   </data>
   <data name="discussions.mode.events" xml:space="preserve">
-    <value>Cronologia</value>
+    <value>Storico</value>
   </data>
   <data name="discussions.mode.general" xml:space="preserve">
     <value>Generale {0}</value>
@@ -282,6 +288,9 @@
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
     <value>Se questo post inizia con un timestamp, verrà mostrato sotto Cronologia.</value>
+  </data>
+  <data name="discussions.review.insert-block.mapper_note" xml:space="preserve">
+    <value>inserisci nota</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>inserisci paragrafo</value>

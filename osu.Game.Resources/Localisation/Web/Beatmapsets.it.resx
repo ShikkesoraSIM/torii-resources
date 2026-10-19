@@ -88,6 +88,12 @@
   <data name="index.guest_title" xml:space="preserve">
     <value>Beatmap</value>
   </data>
+  <data name="ogp.favourites" xml:space="preserve">
+    <value>{0} preferito|{0} preferiti</value>
+  </data>
+  <data name="ogp.playcount" xml:space="preserve">
+    <value>{0} partita|{0} partite</value>
+  </data>
   <data name="panel.empty" xml:space="preserve">
     <value>nessuna beatmap</value>
   </data>
@@ -147,6 +153,9 @@
   </data>
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>Explicit</value>
+  </data>
+  <data name="rate.invalid" xml:space="preserve">
+    <value>Voto non valido.</value>
   </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Discussione</value>
@@ -298,6 +307,18 @@
   <data name="show.info.video" xml:space="preserve">
     <value>Questa beatmap contiene video</value>
   </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Esclusiva lazer</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>A cause di meccaniche specifiche, questa beatmap può essere giocata solo su osu!lazer.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0} per vedere i punteggi di questa beatmap.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Attiva la modalità lazer</value>
+  </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
     <value>Questa beatmap ha contenuti espliciti, offensivi o disturbanti. Vuoi vederla comunque?</value>
   </data>
@@ -419,7 +440,7 @@
     <value>Difficoltà</value>
   </data>
   <data name="show.stats.total_length" xml:space="preserve">
-    <value>Durata (Tempo di drenaggio: {0})</value>
+    <value>Durata (Tempo di gioco: {0})</value>
   </data>
   <data name="show.stats.bpm" xml:space="preserve">
     <value>BPM</value>

@@ -67,6 +67,9 @@
   <data name="daily_challenge.beatmap" xml:space="preserve">
     <value>Difficulty</value>
   </data>
+  <data name="daily_challenge.theme" xml:space="preserve">
+    <value>Theme</value>
+  </data>
   <data name="daily_challenge.top_10p" xml:space="preserve">
     <value>Top 10% Score</value>
   </data>
@@ -101,7 +104,7 @@
     <value>Points</value>
   </data>
   <data name="matchmaking.provisional" xml:space="preserve">
-    <value>Not enough matches played to accurately determine rating</value>
+    <value>Provisional rating due to an insufficient number of recent matches</value>
   </data>
   <data name="matchmaking.rating" xml:space="preserve">
     <value>Rating</value>

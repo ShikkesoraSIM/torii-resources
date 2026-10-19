@@ -209,7 +209,7 @@
     <value>Berikut rincian pelacakan yang terkait:</value>
   </data>
   <data name="invoice.status.shipped.no_tracking_details._" xml:space="preserve">
-    <value>Kami tidak memiliki rincian pelacakan apa pun karena kami mengirim paketmu via Air Mail, namun pesananmu seharusnya akan sampai dalam 1-3 minggu. Untuk pengiriman ke Eropa, terkadang bea cukai setempat bisa menunda pesananmu di luar kendali kami. Apabila kamu memiliki sesuatu yang ingin ditanyakan, silakan balas email konfirmasi pesanan yang kamu terima (atau {0}).</value>
+    <value>Kami tidak memiliki rincian pelacakan karena kami mengirimkan paketmu via Air Mail, namun pesananmu seharusnya akan sampai dalam 1-3 minggu. Untuk pengiriman ke Eropa, terkadang bea cukai setempat bisa menunda pesananmu di luar kendali kami. Apabila kamu memiliki pertanyaan atau kendala, silakan balas email konfirmasi pemesanan yang kamu terima (atau {0}).</value>
   </data>
   <data name="invoice.status.shipped.no_tracking_details.link_text" xml:space="preserve">
     <value>kirimi kami email</value>
@@ -246,6 +246,9 @@
   </data>
   <data name="order.total" xml:space="preserve">
     <value>Total</value>
+  </data>
+  <data name="order.unavailable" xml:space="preserve">
+    <value>Tidak ada informasi tambahan yang tersedia untuk pesanan ini.</value>
   </data>
   <data name="order.details.order_number" xml:space="preserve">
     <value>Pesanan #</value>
@@ -359,7 +362,7 @@
     <value>tambahkan pesan untuk melengkapi hadiahmu! (maksimal {0} karakter)</value>
   </data>
   <data name="supporter_tag.require_login._" xml:space="preserve">
-    <value>Kamu harus {0} untuk memperoleh tag osu!supporter!</value>
+    <value>Kamu harus {0} untuk mendapatkan tag osu!supporter!</value>
   </data>
   <data name="supporter_tag.require_login.link_text" xml:space="preserve">
     <value>masuk</value>

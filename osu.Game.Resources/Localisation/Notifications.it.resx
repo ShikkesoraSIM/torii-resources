@@ -113,8 +113,8 @@
     <value>La tua copia della beatmap per questo replay sembra essere diversa da quella prevista. Potresti aver bisogno di aggiornarla oppure riscaricarla.</value>
   </data>
   <data name="game_version_after_update" xml:space="preserve">
-    <value>Ora stai giocando osu! {0}.
-Clicca per vedere cosa c'è di nuovo!</value>
+    <value>Ora stai giocando su osu! versione {0}.
+Clicca per scoprire cosa c'è di nuovo!</value>
   </data>
   <data name="update_ready_to_install" xml:space="preserve">
     <value>Aggiornamento pronto per l'installazione. Clicca per riavviare!</value>
@@ -130,6 +130,9 @@ Clicca per vedere cosa c'è di nuovo!</value>
   </data>
   <data name="mention" xml:space="preserve">
     <value>Menzione</value>
+  </data>
+  <data name="mention_details" xml:space="preserve">
+    <value>{0} in {1}</value>
   </data>
   <data name="friend_online" xml:space="preserve">
     <value>Online: {0}</value>

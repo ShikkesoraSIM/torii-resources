@@ -163,6 +163,9 @@
   <data name="github_user.error.unverified_email" xml:space="preserve">
     <value>Verifica el teu correu electrònic principal a GitHub i torna a provar d'enllaçar el teu compte.</value>
   </data>
+  <data name="notifications.beatmapset_discussion_reply" xml:space="preserve">
+    <value>rebre notificacions de les respostes dels fils de mapes en què es participa</value>
+  </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>rebre notificacions de nous problemes en mapes qualificats dels següents modes</value>
   </data>
@@ -217,6 +220,33 @@
   <data name="notifications.options.push" xml:space="preserve">
     <value>emergent</value>
   </data>
+  <data name="notifications.tooltips.beatmap_owner_change" xml:space="preserve">
+    <value>quan se us afegeixi com a mapejador convidat a la dificultat d'un mapa</value>
+  </data>
+  <data name="notifications.tooltips.beatmapset:modding" xml:space="preserve">
+    <value>quan les discussions de mapes que vigileu rebin actualitzacions o hi hagi algun suggeriment o problema amb els vostres mapes</value>
+  </data>
+  <data name="notifications.tooltips.channel_mention" xml:space="preserve">
+    <value>quan se us mencioni en un canal públic</value>
+  </data>
+  <data name="notifications.tooltips.channel_message" xml:space="preserve">
+    <value>quan rebeu un missatge privat nou</value>
+  </data>
+  <data name="notifications.tooltips.channel_team" xml:space="preserve">
+    <value>quan el canal de xat del vostre equip tingui un missatge nou</value>
+  </data>
+  <data name="notifications.tooltips.comment_new" xml:space="preserve">
+    <value>quan hi hagi un comentari nou en un element que seguiu</value>
+  </data>
+  <data name="notifications.tooltips.forum_topic_reply" xml:space="preserve">
+    <value>quan els temes del fòrum que vigileu rebin respostes</value>
+  </data>
+  <data name="notifications.tooltips.mapping" xml:space="preserve">
+    <value>quan un mapejador que seguiu pugi un mapa</value>
+  </data>
+  <data name="notifications.tooltips.news_post" xml:space="preserve">
+    <value>quan hi hagi missatges nous</value>
+  </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
     <value>clients autoritzats</value>
   </data>
@@ -250,6 +280,9 @@
   <data name="options.beatmapset_download.no_video" xml:space="preserve">
     <value>sense vídeo</value>
   </data>
+  <data name="playstyles.default_ruleset" xml:space="preserve">
+    <value>mode de joc per defecte</value>
+  </data>
   <data name="playstyles.keyboard" xml:space="preserve">
     <value>teclat</value>
   </data>
@@ -267,6 +300,9 @@
   </data>
   <data name="privacy.friends_only" xml:space="preserve">
     <value>bloca els missatges privats de persones que no són a la llista d'amics</value>
+  </data>
+  <data name="privacy.friends_only_info" xml:space="preserve">
+    <value>aquest bloc també s'aplica a les sol·licituds d'invitacions multijugadors d'osu!lazer i de duels amb classificació</value>
   </data>
   <data name="privacy.hide_online" xml:space="preserve">
     <value>amaga la teva presència en línia</value>

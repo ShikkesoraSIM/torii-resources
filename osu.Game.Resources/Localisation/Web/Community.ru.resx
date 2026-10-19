@@ -161,7 +161,7 @@
     <value>Ранний доступ</value>
   </data>
   <data name="support.perks.early_access.description" xml:space="preserve">
-    <value>Доступ к ранним версиям игры, где вы можете опробовать новые функции, прежде чем они получат огласку!&lt;br/&gt;&lt;br/&gt;Это также включает в себя ранний доступ к новым функциями на веб-сайте!</value>
+    <value>Доступ к ранним версиям игры, где вы можете опробовать новые функции, прежде чем они получат огласку!&lt;br/&gt;&lt;br/&gt;Эта возможность также позволяет получить ранний доступ к новым функциям на веб-сайте!</value>
   </data>
   <data name="support.perks.customisation.title" xml:space="preserve">
     <value>Персонализация</value>
@@ -194,10 +194,10 @@
     <value>Одно бесплатное изменение ника с первым приобретением osu!supporter.</value>
   </data>
   <data name="support.perks.skinnables.title" xml:space="preserve">
-    <value>Параметры скина</value>
+    <value>Расширенные возможности для скина</value>
   </data>
   <data name="support.perks.skinnables.description" xml:space="preserve">
-    <value>Дополнительные параметры скина, которые могут изменить, например, фон главного меню.</value>
+    <value>Ещё больше функций скина, как пример, для изменения фона главного меню.</value>
   </data>
   <data name="support.perks.feature_votes.title" xml:space="preserve">
     <value>Голосование за новые фичи</value>

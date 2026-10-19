@@ -61,6 +61,9 @@
   <data name="loading_users" xml:space="preserve">
     <value>a carregar utilizadores...</value>
   </data>
+  <data name="searching_users" xml:space="preserve">
+    <value>procurando por usuários...</value>
+  </data>
   <data name="talking_in" xml:space="preserve">
     <value>a falar em {0}</value>
   </data>
@@ -126,6 +129,12 @@
   </data>
   <data name="not_found.title" xml:space="preserve">
     <value>canal não encontrado</value>
+  </data>
+  <data name="not_joined.message" xml:space="preserve">
+    <value>Junte‑se ao canal para ver as mensagens.</value>
+  </data>
+  <data name="not_joined.join" xml:space="preserve">
+    <value>Entrar no canal</value>
   </data>
   <data name="input.create" xml:space="preserve">
     <value>Criar</value>

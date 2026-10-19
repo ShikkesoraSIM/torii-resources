@@ -94,6 +94,9 @@
   <data name="discussions.kudosu_denied" xml:space="preserve">
     <value>A obtenção de kudosu foi‑lhe recusada.</value>
   </data>
+  <data name="discussions.include_replies" xml:space="preserve">
+    <value>Incluir respostas</value>
+  </data>
   <data name="discussions.message_placeholder_deleted_beatmap" xml:space="preserve">
     <value>Esta dificuldade foi eliminada, pelo que já não pode ser discutida.</value>
   </data>
@@ -126,6 +129,9 @@
   </data>
   <data name="discussions.show_deleted" xml:space="preserve">
     <value>Exibir discussões eliminadas</value>
+  </data>
+  <data name="discussions.show_other_replies" xml:space="preserve">
+    <value>Mostrar outras respostas</value>
   </data>
   <data name="discussions.title" xml:space="preserve">
     <value>Discussões</value>
@@ -283,6 +289,9 @@
   </data>
   <data name="discussions.review.embed.timestamp.diff" xml:space="preserve">
     <value>Se esta publicação começar com uma determinada marca de tempo, será exibida na Cronologia.</value>
+  </data>
+  <data name="discussions.review.insert-block.mapper_note" xml:space="preserve">
+    <value>inserir nota</value>
   </data>
   <data name="discussions.review.insert-block.paragraph" xml:space="preserve">
     <value>inserir parágrafo</value>
@@ -504,7 +513,7 @@
     <value>As contagens de melhores classificações do perfil e os resultados apresentados nesta página baseiam‑se nas suas pontuações "normalizadas" (também conhecidas como "lazer") mais altas nos mapas.</value>
   </data>
   <data name="listing.search.supporter_filter" xml:space="preserve">
-    <value>Filtrar por {0} requer uma etiqueta osu!supporter</value>
+    <value>Filtrar por {0} requer uma etiqueta de apoiante do osu! ativa</value>
   </data>
   <data name="listing.search.not-found" xml:space="preserve">
     <value>sem resultados</value>
@@ -573,7 +582,7 @@
     <value>Filtrar por {0} requer um {1} ativo</value>
   </data>
   <data name="listing.search.supporter_filter_quote.link_text" xml:space="preserve">
-    <value>etiqueta de osu!supporter</value>
+    <value>etiqueta de apoiante do osu!</value>
   </data>
   <data name="listing.search.tag_picker.tooltip" xml:space="preserve">
     <value>explorar etiquetas de utilizador</value>

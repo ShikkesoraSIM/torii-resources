@@ -65,7 +65,7 @@
     <value>Если у вас установлена предыдущая версия osu!, вы можете перенести её содержимое. Обратите внимание: импорт никак не повлияет на эти файлы.</value>
   </data>
   <data name="locate_directory_label" xml:space="preserve">
-    <value>предыдущая директория osu!</value>
+    <value>предыдущий клиент osu!</value>
   </data>
   <data name="locate_directory_placeholder" xml:space="preserve">
     <value>Нажмите здесь, чтобы найти предыдущую версию osu!</value>
@@ -78,9 +78,6 @@
   </data>
   <data name="calculating" xml:space="preserve">
     <value>идёт подсчёт...</value>
-  </data>
-  <data name="items" xml:space="preserve">
-    <value>{0} элемента(-ов)</value>
   </data>
   <data name="data_migration_no_extra_space" xml:space="preserve">
     <value>Перенос данных будет осуществлён с помощью "жёстких ссылок". Дополнительного места на диске не потребуется, и впоследствии Вы сможете удалить любую из папок с данными без вреда для другой версии игры.</value>

@@ -136,6 +136,12 @@
   <data name="beatmapset.metadata.nominated" xml:space="preserve">
     <value>Não é possível alterar os metadados de um mapa já nomeado. Contacte um BN ou um membro do NAT caso considere que estão definidos de forma incorreta.</value>
   </data>
+  <data name="beatmapset.rate.owner" xml:space="preserve">
+    <value>Não pode avaliar um conjunto de mapas do qual faz parte.</value>
+  </data>
+  <data name="beatmapset.rate.status" xml:space="preserve">
+    <value>Não pode avaliar um conjunto de mapas com este estado.</value>
+  </data>
   <data name="beatmap_tag.store.no_score" xml:space="preserve">
     <value>É necessário ter uma pontuação registada num mapa para poder adicionar uma etiqueta.</value>
   </data>
@@ -323,7 +329,7 @@
     <value>Não faz parte da equipa.</value>
   </data>
   <data name="team.store.require_supporter_tag" xml:space="preserve">
-    <value>A etiqueta osu!supporter é necessária para criar uma equipa.</value>
+    <value>A etiqueta de apoiante do osu! é necessária para criar uma equipa.</value>
   </data>
   <data name="user.page.edit.locked" xml:space="preserve">
     <value>A página de utilizador está bloqueada.</value>
@@ -332,7 +338,7 @@
     <value>Só é possível editar a própria página de utilizador.</value>
   </data>
   <data name="user.page.edit.require_supporter_tag" xml:space="preserve">
-    <value>É necessária uma etiqueta osu!supporter.</value>
+    <value>É necessária uma etiqueta de apoiante do osu!.</value>
   </data>
   <data name="user.update_email.locked" xml:space="preserve">
     <value>o endereço de e-mail está bloqueado</value>

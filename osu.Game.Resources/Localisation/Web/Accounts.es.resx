@@ -163,6 +163,9 @@
   <data name="github_user.error.unverified_email" xml:space="preserve">
     <value>Por favor, verifica tu correo principal en GitHub, luego intenta vincular tu cuenta de nuevo.</value>
   </data>
+  <data name="notifications.beatmapset_discussion_reply" xml:space="preserve">
+    <value>recibir notificaciones cuando haya respuestas en las discusiones de mapas en las que estás participando</value>
+  </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>recibir notificaciones de nuevos problemas en mapas calificados de los siguientes modos</value>
   </data>
@@ -217,6 +220,33 @@
   <data name="notifications.options.push" xml:space="preserve">
     <value>push</value>
   </data>
+  <data name="notifications.tooltips.beatmap_owner_change" xml:space="preserve">
+    <value>cuando te añadan como mapper invitado en una dificultad de un mapa</value>
+  </data>
+  <data name="notifications.tooltips.beatmapset:modding" xml:space="preserve">
+    <value>cuando las discusiones relacionadas con los mapas que estás siguiendo se actualicen, o si hay algún problema o sugerencia en tu propio mapa.</value>
+  </data>
+  <data name="notifications.tooltips.channel_mention" xml:space="preserve">
+    <value>cuando seas mencionado en un canal público</value>
+  </data>
+  <data name="notifications.tooltips.channel_message" xml:space="preserve">
+    <value>cuando recibas un nuevo mensaje privado</value>
+  </data>
+  <data name="notifications.tooltips.channel_team" xml:space="preserve">
+    <value>cuando haya un mensaje nuevo en el chat de tu equipo</value>
+  </data>
+  <data name="notifications.tooltips.comment_new" xml:space="preserve">
+    <value>cuando haya un nuevo comentario en una publicación que estés siguiendo</value>
+  </data>
+  <data name="notifications.tooltips.forum_topic_reply" xml:space="preserve">
+    <value>cuando los temas del foro que estás siguiendo reciban nuevas respuestas</value>
+  </data>
+  <data name="notifications.tooltips.mapping" xml:space="preserve">
+    <value>cuando un mapper al que sigues suba un mapa</value>
+  </data>
+  <data name="notifications.tooltips.news_post" xml:space="preserve">
+    <value>cuando se publiquen nuevas noticias</value>
+  </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
     <value>clientes autorizados</value>
   </data>
@@ -249,6 +279,9 @@
   </data>
   <data name="options.beatmapset_download.no_video" xml:space="preserve">
     <value>sin vídeo</value>
+  </data>
+  <data name="playstyles.default_ruleset" xml:space="preserve">
+    <value>modo de juego predeterminado</value>
   </data>
   <data name="playstyles.keyboard" xml:space="preserve">
     <value>teclado</value>

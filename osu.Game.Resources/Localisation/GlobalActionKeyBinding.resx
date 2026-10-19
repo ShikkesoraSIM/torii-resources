@@ -94,6 +94,9 @@
   <data name="take_screenshot" xml:space="preserve">
     <value>Take screenshot</value>
   </data>
+  <data name="take_and_upload_screenshot" xml:space="preserve">
+    <value>Take and upload screenshot</value>
+  </data>
   <data name="toggle_gameplay_mouse_buttons" xml:space="preserve">
     <value>Toggle gameplay mouse buttons</value>
   </data>
@@ -271,6 +274,9 @@
   <data name="step_replay_backward" xml:space="preserve">
     <value>Step replay backward one frame</value>
   </data>
+  <data name="fast_forward_replay" xml:space="preserve">
+    <value>Fast forward replay</value>
+  </data>
   <data name="toggle_chat_focus" xml:space="preserve">
     <value>Toggle chat focus</value>
   </data>
@@ -344,6 +350,6 @@
     <value>Toggle movement control</value>
   </data>
   <data name="editor_discard_unsaved_changes" xml:space="preserve">
-    <value>Discard unsaved changes</value>
+    <value>Discard unsaved changes...</value>
   </data>
 </root>

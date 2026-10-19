@@ -74,13 +74,16 @@
     <value>WAŻNE</value>
   </data>
   <data name="index.blurb.install_instruction" xml:space="preserve">
-    <value>Instalacja: Rozpakuj zawartość pobranej paczki do folderu z beatmapami (Songs), a osu! zajmie się resztą.</value>
+    <value>Instalacja: Rozpakuj zawartość pobranej paczki do folderu, zaznacz wszystkie pliki .osz, a następnie przeciągnij je na uruchomione osu!.</value>
   </data>
   <data name="show.created_by" xml:space="preserve">
     <value>autorstwa {0}</value>
   </data>
   <data name="show.download" xml:space="preserve">
     <value>Pobierz</value>
+  </data>
+  <data name="show.no_diff_reduction_badge" xml:space="preserve">
+    <value>Wyzwanie</value>
   </data>
   <data name="show.item.cleared" xml:space="preserve">
     <value>ukończona</value>

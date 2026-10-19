@@ -62,7 +62,7 @@
     <value>Contrôles</value>
   </data>
   <data name="device" xml:space="preserve">
-    <value>Appareil: {0}</value>
+    <value>Appareil : {0}</value>
   </data>
   <data name="global_key_binding_header" xml:space="preserve">
     <value>Général</value>
@@ -72,9 +72,6 @@
   </data>
   <data name="song_select_section" xml:space="preserve">
     <value>Sélection de beatmap</value>
-  </data>
-  <data name="in_game_section" xml:space="preserve">
-    <value>En jeu</value>
   </data>
   <data name="replay_section" xml:space="preserve">
     <value>Replay</value>
@@ -86,7 +83,7 @@
     <value>Éditeur</value>
   </data>
   <data name="editor_test_play_section" xml:space="preserve">
-    <value>Éditeur : Tester</value>
+    <value>Partie test</value>
   </data>
   <data name="reset_section_button" xml:space="preserve">
     <value>Réinitialiser toutes les touches de la section</value>
@@ -108,5 +105,11 @@
   </data>
   <data name="action_has_no_key_binding" xml:space="preserve">
     <value>(aucun)</value>
+  </data>
+  <data name="press_akey_combination_to" xml:space="preserve">
+    <value>Entrer une combinaison de touches pour l'assigner...</value>
+  </data>
+  <data name="clear_binding_button" xml:space="preserve">
+    <value>Effacer la touche</value>
   </data>
 </root>

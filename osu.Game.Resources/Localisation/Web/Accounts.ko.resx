@@ -163,6 +163,9 @@
   <data name="github_user.error.unverified_email" xml:space="preserve">
     <value>GitHub에 등록된 주 이메일 인증 후, 계정을 다시 연동해 주세요.</value>
   </data>
+  <data name="notifications.beatmapset_discussion_reply" xml:space="preserve">
+    <value>참여하고 있는 비트맵 토론에 답변이 달렸을 때 알림 받기</value>
+  </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>Qualified 비트맵에 문제가 생길 경우 알림을 수신할 모드</value>
   </data>
@@ -217,6 +220,33 @@
   <data name="notifications.options.push" xml:space="preserve">
     <value>푸시 알림</value>
   </data>
+  <data name="notifications.tooltips.beatmap_owner_change" xml:space="preserve">
+    <value>사용자가 비트맵 난이도의 게스트 맵퍼로 추가되었을 때</value>
+  </data>
+  <data name="notifications.tooltips.beatmapset:modding" xml:space="preserve">
+    <value>사용자가 조회하고 있는 비트맵 토론이 업데이트되거나, 사용자가 제작한 비트맵에 문제 또는 요청이 있을 때.</value>
+  </data>
+  <data name="notifications.tooltips.channel_mention" xml:space="preserve">
+    <value>public 채널에서 사용자가 언급되었을 때</value>
+  </data>
+  <data name="notifications.tooltips.channel_message" xml:space="preserve">
+    <value>새용자가 새로운 개인 메시지를 수신받았을 때</value>
+  </data>
+  <data name="notifications.tooltips.channel_team" xml:space="preserve">
+    <value>사용자의 팀 채팅에 새로운 메시지가 있을 때</value>
+  </data>
+  <data name="notifications.tooltips.comment_new" xml:space="preserve">
+    <value>사용자가 팔로우하고 있는 요소에 새로운 댓글이 게시되었을 때</value>
+  </data>
+  <data name="notifications.tooltips.forum_topic_reply" xml:space="preserve">
+    <value>사용자가 보고 있는 포럼 주제에 새로운 답신이 있을 때</value>
+  </data>
+  <data name="notifications.tooltips.mapping" xml:space="preserve">
+    <value>사용자가 팔로우하고 있는 맵퍼가 새로운 비트맵을 게시했을 때</value>
+  </data>
+  <data name="notifications.tooltips.news_post" xml:space="preserve">
+    <value>새로운 뉴스가 게시되었을 때</value>
+  </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
     <value>인증된 클라이언트</value>
   </data>
@@ -250,6 +280,9 @@
   <data name="options.beatmapset_download.no_video" xml:space="preserve">
     <value>영상이 없는 비트맵으로 받기</value>
   </data>
+  <data name="playstyles.default_ruleset" xml:space="preserve">
+    <value>기본 게임 모드</value>
+  </data>
   <data name="playstyles.keyboard" xml:space="preserve">
     <value>키보드</value>
   </data>
@@ -267,6 +300,9 @@
   </data>
   <data name="privacy.friends_only" xml:space="preserve">
     <value>친구 목록에 없는 사람들이 보낸 개인 메시지를 차단</value>
+  </data>
+  <data name="privacy.friends_only_info" xml:space="preserve">
+    <value>이 차단은 osu!lazer 멀티플레이 초대와 랭크 플레이의 1:1 대결 요청에도 적용됩니다</value>
   </data>
   <data name="privacy.hide_online" xml:space="preserve">
     <value>온라인 상태 숨기기</value>

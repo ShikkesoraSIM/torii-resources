@@ -122,12 +122,18 @@
     <value>Tidak ada preset mod yang ditemukan untuk dihapus!</value>
   </data>
   <data name="restored_all_deleted_mod_presets" xml:space="preserve">
-    <value>Semua preset mod yang dihapus sudah dipulihkan!</value>
+    <value>Semua preset mod yang dihapus dipulihkan!</value>
   </data>
   <data name="no_mod_presets_found_to_restore" xml:space="preserve">
     <value>Tidak ada preset mod yang ditemukan untuk dipulihkan!</value>
   </data>
   <data name="stable_directory_select_header" xml:space="preserve">
     <value>Silakan pilih lokasi instalasi osu!stable milikmu</value>
+  </data>
+  <data name="all_offsets_reset" xml:space="preserve">
+    <value>Semua offset sudah diatur ulang!</value>
+  </data>
+  <data name="no_videos_found_to_delete" xml:space="preserve">
+    <value>Tidak ada video yang ditemukan untuk dihapus!</value>
   </data>
 </root>

@@ -65,13 +65,16 @@
     <value>Ориентация счётчика</value>
   </data>
   <data name="show_judgement_names" xml:space="preserve">
-    <value>Показывать названия оценок </value>
+    <value>Показывать названия оценок</value>
   </data>
   <data name="show_max_judgement" xml:space="preserve">
     <value>Показывать наилучшую оценку</value>
   </data>
   <data name="judgement_display_mode_simple" xml:space="preserve">
     <value>Упрощённый</value>
+  </data>
+  <data name="judgement_display_mode_misses_only" xml:space="preserve">
+    <value>Только промахи</value>
   </data>
   <data name="judgement_display_mode_normal" xml:space="preserve">
     <value>Стандартный</value>

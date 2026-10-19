@@ -163,6 +163,9 @@
   <data name="github_user.error.unverified_email" xml:space="preserve">
     <value>Veuillez vérifier votre adresse e-mail principale sur GitHub, puis essayez d'associer votre compte à nouveau.</value>
   </data>
+  <data name="notifications.beatmapset_discussion_reply" xml:space="preserve">
+    <value>recevoir des notifications pour des réponses aux discussions de beatmap auxquels vous participez </value>
+  </data>
   <data name="notifications.beatmapset_discussion_qualified_problem" xml:space="preserve">
     <value>recevoir des notifications lorsqu'un nouveau problème est posté sur les beatmaps qualifiées dans les modes suivants</value>
   </data>
@@ -217,6 +220,33 @@
   <data name="notifications.options.push" xml:space="preserve">
     <value>push</value>
   </data>
+  <data name="notifications.tooltips.beatmap_owner_change" xml:space="preserve">
+    <value>lorsque vous êtes ajouté en tant que participant sur une difficulté de carte</value>
+  </data>
+  <data name="notifications.tooltips.beatmapset:modding" xml:space="preserve">
+    <value>lorsque des discussions sur des cartes que vous regardez reçoivent des mises à jour, ou qu'il y a un problème ou une suggestion sur votre propre carte.</value>
+  </data>
+  <data name="notifications.tooltips.channel_mention" xml:space="preserve">
+    <value>quand vous êtes mentionné dans un canal public</value>
+  </data>
+  <data name="notifications.tooltips.channel_message" xml:space="preserve">
+    <value>quand vous recevez un nouveau message privé</value>
+  </data>
+  <data name="notifications.tooltips.channel_team" xml:space="preserve">
+    <value>quand votre tchat d'équipe reçoit un nouveau message </value>
+  </data>
+  <data name="notifications.tooltips.comment_new" xml:space="preserve">
+    <value>quand il y a un nouveau commentaire sur un élément que vous suivez</value>
+  </data>
+  <data name="notifications.tooltips.forum_topic_reply" xml:space="preserve">
+    <value>lorsqu’il y a de nouvelles réponses dans les sujets suivis</value>
+  </data>
+  <data name="notifications.tooltips.mapping" xml:space="preserve">
+    <value>quand un créateur de carte en sort une nouvelle</value>
+  </data>
+  <data name="notifications.tooltips.news_post" xml:space="preserve">
+    <value>quand il y a de nouvelles publications publiées</value>
+  </data>
   <data name="oauth.authorized_clients" xml:space="preserve">
     <value>clients autorisés</value>
   </data>
@@ -250,6 +280,9 @@
   <data name="options.beatmapset_download.no_video" xml:space="preserve">
     <value>sans vidéo</value>
   </data>
+  <data name="playstyles.default_ruleset" xml:space="preserve">
+    <value>mode de jeu par défaut</value>
+  </data>
   <data name="playstyles.keyboard" xml:space="preserve">
     <value>clavier</value>
   </data>
@@ -267,6 +300,9 @@
   </data>
   <data name="privacy.friends_only" xml:space="preserve">
     <value>bloquer les messages privés des utilisateurs qui ne sont pas dans votre liste d’amis</value>
+  </data>
+  <data name="privacy.friends_only_info" xml:space="preserve">
+    <value>ce blocage s'applique aussi aux invitations multijoueurs et aux demandes de duel en partie classée dans osu!lazer</value>
   </data>
   <data name="privacy.hide_online" xml:space="preserve">
     <value>masquer votre présence en ligne</value>

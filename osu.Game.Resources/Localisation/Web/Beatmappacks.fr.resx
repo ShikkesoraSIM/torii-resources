@@ -74,13 +74,16 @@
     <value>LISEZ CECI AVANT DE TÉLÉCHARGER</value>
   </data>
   <data name="index.blurb.install_instruction" xml:space="preserve">
-    <value>Installation : Une fois qu'un pack a été téléchargé, extrayez le contenu du pack dans le dossier Songs d'osu! et le client s'occupera du reste.</value>
+    <value>Installation : Une fois qu'un pack a été téléchargé, extrayez le contenu du pack dans un dossier, sélectionnez les fichiers osz et glissez-les dans une instance active d'osu!.</value>
   </data>
   <data name="show.created_by" xml:space="preserve">
     <value>par {0}</value>
   </data>
   <data name="show.download" xml:space="preserve">
     <value>Télécharger</value>
+  </data>
+  <data name="show.no_diff_reduction_badge" xml:space="preserve">
+    <value>Défi</value>
   </data>
   <data name="show.item.cleared" xml:space="preserve">
     <value>terminée</value>

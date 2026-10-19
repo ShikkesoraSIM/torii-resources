@@ -25,6 +25,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DailyChallengeBeatmap => new TranslatableString(getKey(@"daily_challenge.beatmap"), @"Difficulty");
 
         /// <summary>
+        /// "Theme"
+        /// </summary>
+        public static LocalisableString DailyChallengeTheme => new TranslatableString(getKey(@"daily_challenge.theme"), @"Theme");
+
+        /// <summary>
         /// "Top 10% Score"
         /// </summary>
         public static LocalisableString DailyChallengeTop10p => new TranslatableString(getKey(@"daily_challenge.top_10p"), @"Top 10% Score");
@@ -80,9 +85,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString MatchmakingPoints => new TranslatableString(getKey(@"matchmaking.points"), @"Points");
 
         /// <summary>
-        /// "Not enough matches played to accurately determine rating"
+        /// "Provisional rating due to an insufficient number of recent matches"
         /// </summary>
-        public static LocalisableString MatchmakingProvisional => new TranslatableString(getKey(@"matchmaking.provisional"), @"Not enough matches played to accurately determine rating");
+        public static LocalisableString MatchmakingProvisional => new TranslatableString(getKey(@"matchmaking.provisional"), @"Provisional rating due to an insufficient number of recent matches");
 
         /// <summary>
         /// "Rating"

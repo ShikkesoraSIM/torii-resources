@@ -233,7 +233,7 @@
     <value>O acesso beta está atualmente restrito a utilizadores privilegiados.</value>
   </data>
   <data name="login.beta.small" xml:space="preserve">
-    <value>(osu!supporters terão acesso em breve)</value>
+    <value>(apoiantes do osu! terão acesso em breve)</value>
   </data>
   <data name="multiplayer.index.active" xml:space="preserve">
     <value>Ativas</value>
@@ -356,7 +356,7 @@
     <value>osu!developer</value>
   </data>
   <data name="show.is_supporter" xml:space="preserve">
-    <value>osu!supporter</value>
+    <value>apoiante do osu!</value>
   </data>
   <data name="show.joined_at" xml:space="preserve">
     <value>Juntou-se em {0}</value>
@@ -427,6 +427,12 @@
   <data name="show.daily_challenge.unit.week" xml:space="preserve">
     <value>{0}</value>
   </data>
+  <data name="show.detail_switch.to_v1" xml:space="preserve">
+    <value>Mostrar menos pormenores</value>
+  </data>
+  <data name="show.detail_switch.to_v2" xml:space="preserve">
+    <value>Mostrar mais pormenores</value>
+  </data>
   <data name="show.edit.cover.button" xml:space="preserve">
     <value>Mudar a capa do perfil</value>
   </data>
@@ -464,7 +470,7 @@
     <value>Carregamento disponível apenas para {0}</value>
   </data>
   <data name="show.edit.cover.upload.restriction_info.link" xml:space="preserve">
-    <value>osu!supporters</value>
+    <value>apoiantes do osu!</value>
   </data>
   <data name="show.edit.default_playmode.is_default_tooltip" xml:space="preserve">
     <value>modo de jogo por omissão</value>
@@ -482,7 +488,7 @@
     <value>Temas de cores personalizadas disponíveis apenas no {0}</value>
   </data>
   <data name="show.edit.hue.supporter.link" xml:space="preserve">
-    <value>osu!supporters</value>
+    <value>apoiantes do osu!</value>
   </data>
   <data name="show.extra.none" xml:space="preserve">
     <value>nenhum</value>
@@ -766,8 +772,29 @@
   <data name="show.info.website" xml:space="preserve">
     <value>Página</value>
   </data>
+  <data name="show.matchmaking.losses" xml:space="preserve">
+    <value>Derrotas</value>
+  </data>
+  <data name="show.matchmaking.plays" xml:space="preserve">
+    <value>Partidas Totais</value>
+  </data>
+  <data name="show.matchmaking.rank" xml:space="preserve">
+    <value>Classificação</value>
+  </data>
+  <data name="show.matchmaking.rating" xml:space="preserve">
+    <value>Pontuação</value>
+  </data>
+  <data name="show.matchmaking.recent_history" xml:space="preserve">
+    <value>Histórico da Última Partida</value>
+  </data>
+  <data name="show.matchmaking.tier" xml:space="preserve">
+    <value>Patamar</value>
+  </data>
   <data name="show.matchmaking.title" xml:space="preserve">
     <value>Partida Classificada</value>
+  </data>
+  <data name="show.matchmaking.wins" xml:space="preserve">
+    <value>Vitórias</value>
   </data>
   <data name="show.not_found.reason_1" xml:space="preserve">
     <value>É capaz de ter mudado o nome de utilizador.</value>
@@ -800,7 +827,7 @@
     <value>Precisa de ser um {0} para desbloquear esta funcionalidade.</value>
   </data>
   <data name="show.page.restriction_info.link" xml:space="preserve">
-    <value>osu!supporter</value>
+    <value>apoiante do osu!</value>
   </data>
   <data name="show.post_count._" xml:space="preserve">
     <value>Contribuiu em {0}</value>
@@ -823,11 +850,26 @@
   <data name="show.rank.highest" xml:space="preserve">
     <value>Classificação mais alta: {0} em {1}</value>
   </data>
+  <data name="show.score_processing.title" xml:space="preserve">
+    <value>Um novo algoritmo de classificação por estrelas/PP está {0}.</value>
+  </data>
+  <data name="show.score_processing.title_link" xml:space="preserve">
+    <value>a ser implementado</value>
+  </data>
+  <data name="show.score_processing.message" xml:space="preserve">
+    <value>As pontuações recentes não podem ser refletidas imediatamente em perfis de usuário.</value>
+  </data>
   <data name="show.season_stats.division_top_percentage" xml:space="preserve">
     <value>Topo {0}</value>
   </data>
+  <data name="show.season_stats.label" xml:space="preserve">
+    <value>Destaques</value>
+  </data>
   <data name="show.season_stats.total_score" xml:space="preserve">
     <value>Pontuação total</value>
+  </data>
+  <data name="show.solo.title" xml:space="preserve">
+    <value>Jogo Individual</value>
   </data>
   <data name="show.stats.hit_accuracy" xml:space="preserve">
     <value>Precisão de acertos</value>

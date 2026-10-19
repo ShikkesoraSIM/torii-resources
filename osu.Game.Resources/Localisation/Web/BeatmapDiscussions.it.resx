@@ -161,7 +161,7 @@
     <value>Difficoltà</value>
   </data>
   <data name="refresh.checking" xml:space="preserve">
-    <value>Ricerca aggiornamenti...</value>
+    <value>Ricerca aggiornamenti in corso...</value>
   </data>
   <data name="refresh.has_updates" xml:space="preserve">
     <value>Questa discussione ha degli aggiornamenti, clicca per aggiornare.</value>
@@ -228,5 +228,8 @@
   </data>
   <data name="user_filter.label" xml:space="preserve">
     <value>Filtra per utente</value>
+  </data>
+  <data name="user_filter.multiple" xml:space="preserve">
+    <value>{0} utente selezionato|{0} utenti selezionati</value>
   </data>
 </root>

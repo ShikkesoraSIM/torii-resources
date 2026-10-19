@@ -59,13 +59,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="user_interface_section_header" xml:space="preserve">
-    <value>Interface de usuário</value>
+    <value>Interface</value>
   </data>
   <data name="cursor_rotation" xml:space="preserve">
     <value>Girar cursor quando arrastar</value>
   </data>
   <data name="menu_cursor_size" xml:space="preserve">
-    <value>Tamanho do cursor no Menu</value>
+    <value>Tamanho do cursor no menu</value>
   </data>
   <data name="show_menu_tips" xml:space="preserve">
     <value>Dicas de Menu</value>
@@ -92,13 +92,13 @@
     <value>Aleatório</value>
   </data>
   <data name="background_source" xml:space="preserve">
-    <value>Fonte da imagem de fundo</value>
+    <value>Fonte do plano de fundo</value>
   </data>
   <data name="seasonal_backgrounds" xml:space="preserve">
-    <value>Imagens de fundo sazonais</value>
+    <value>Planos de fundo sazonais</value>
   </data>
   <data name="not_supporter_note" xml:space="preserve">
-    <value>As alterações nesta configuração só se aplicam com uma tag de osu!supporter ativa.</value>
+    <value>Alterações nesta configuração somente serão aplicadas com uma tag de osu!supporter ativa.</value>
   </data>
   <data name="song_select_header" xml:space="preserve">
     <value>Seleção de Música</value>

@@ -88,6 +88,12 @@
   <data name="index.guest_title" xml:space="preserve">
     <value>Карты</value>
   </data>
+  <data name="ogp.favourites" xml:space="preserve">
+    <value>в избранных у {0} игрока|в избранных у {0} игроков|в избранных у {0} игроков</value>
+  </data>
+  <data name="ogp.playcount" xml:space="preserve">
+    <value>{0} игра|{0} игры|{0} игр</value>
+  </data>
   <data name="panel.empty" xml:space="preserve">
     <value>нет карт</value>
   </data>
@@ -147,6 +153,9 @@
   </data>
   <data name="nsfw_badge.label" xml:space="preserve">
     <value>18+</value>
+  </data>
+  <data name="rate.invalid" xml:space="preserve">
+    <value>Недопустимая оценка.</value>
   </data>
   <data name="show.discussion" xml:space="preserve">
     <value>Обсуждение</value>
@@ -298,6 +307,18 @@
   <data name="show.info.video" xml:space="preserve">
     <value>С видео</value>
   </data>
+  <data name="show.lazer_only.title" xml:space="preserve">
+    <value>Только в Lazer</value>
+  </data>
+  <data name="show.lazer_only.description" xml:space="preserve">
+    <value>Из-за некоторых нестандартных механик эту карту можно пройти только в osu!lazer.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode._" xml:space="preserve">
+    <value>{0} чтобы посмотреть рекорды, поставленные на этой карте.</value>
+  </data>
+  <data name="show.lazer_only.scoreboard_switch_mode.enable_link" xml:space="preserve">
+    <value>Включите Lazer-рекорды,</value>
+  </data>
   <data name="show.nsfw_warning.details" xml:space="preserve">
     <value>Эта карта содержит откровенное или оскорбительное содержание. Вы уверены, что хотите продолжить?</value>
   </data>
@@ -386,7 +407,7 @@
     <value>Никто из вашей команды ещё не поставил рекорд на этой карте!</value>
   </data>
   <data name="show.scoreboard.no_scores.unranked" xml:space="preserve">
-    <value>Безрейтинговая карта.</value>
+    <value>Нерейтинговая карта.</value>
   </data>
   <data name="show.scoreboard.score.first" xml:space="preserve">
     <value>Лидирует</value>
@@ -446,7 +467,7 @@
     <value>Количество игр</value>
   </data>
   <data name="show.stats.favourites" xml:space="preserve">
-    <value>В избранных у игроков</value>
+    <value>В избранных</value>
   </data>
   <data name="show.stats.no_favourites" xml:space="preserve">
     <value>Пока нет ни у кого в избранных</value>

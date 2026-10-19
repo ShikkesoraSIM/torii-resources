@@ -552,7 +552,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} comment|{0} comments"
         /// </summary>
-        public static LocalisableString ShowCommentsCountCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"show.comments_count.count"), @"{0} comment|{0} comments", countDelimited);
+        public static LocalisableString ShowCommentsCountCount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"show.comments_count.count"), @"{0} comment|{0} comments", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "Hide cover"
@@ -623,6 +623,16 @@ namespace osu.Game.Resources.Localisation.Web
         /// "{0}"
         /// </summary>
         public static LocalisableString ShowDailyChallengeUnitWeek(LocalisableString valuew) => new TranslatableString(getKey(@"show.daily_challenge.unit.week"), @"{0}", valuew);
+
+        /// <summary>
+        /// "Show less details"
+        /// </summary>
+        public static LocalisableString ShowDetailSwitchToV1 => new TranslatableString(getKey(@"show.detail_switch.to_v1"), @"Show less details");
+
+        /// <summary>
+        /// "Show more details"
+        /// </summary>
+        public static LocalisableString ShowDetailSwitchToV2 => new TranslatableString(getKey(@"show.detail_switch.to_v2"), @"Show more details");
 
         /// <summary>
         /// "Change Profile Cover"
@@ -1035,9 +1045,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowExtraTopRanksViewDetails => new TranslatableString(getKey(@"show.extra.top_ranks.view_details"), @"View Details");
 
         /// <summary>
-        /// "Ranks"
+        /// "Scores"
         /// </summary>
-        public static LocalisableString ShowExtraTopRanksTitle => new TranslatableString(getKey(@"show.extra.top_ranks.title"), @"Ranks");
+        public static LocalisableString ShowExtraTopRanksTitle => new TranslatableString(getKey(@"show.extra.top_ranks.title"), @"Scores");
 
         /// <summary>
         /// "Best Performance"
@@ -1045,9 +1055,9 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowExtraTopRanksBestTitle => new TranslatableString(getKey(@"show.extra.top_ranks.best.title"), @"Best Performance");
 
         /// <summary>
-        /// "First Place Ranks"
+        /// "First Place Scores"
         /// </summary>
-        public static LocalisableString ShowExtraTopRanksFirstTitle => new TranslatableString(getKey(@"show.extra.top_ranks.first.title"), @"First Place Ranks");
+        public static LocalisableString ShowExtraTopRanksFirstTitle => new TranslatableString(getKey(@"show.extra.top_ranks.first.title"), @"First Place Scores");
 
         /// <summary>
         /// "Unpin"
@@ -1097,7 +1107,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} vote|{0} votes"
         /// </summary>
-        public static LocalisableString ShowExtraVotesVoteCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"show.extra.votes.vote_count"), @"{0} vote|{0} votes", countDelimited);
+        public static LocalisableString ShowExtraVotesVoteCount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"show.extra.votes.vote_count"), @"{0} vote|{0} votes", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "Account Standing"
@@ -1200,9 +1210,49 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowInfoWebsite => new TranslatableString(getKey(@"show.info.website"), @"Website");
 
         /// <summary>
+        /// "Losses"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingLosses => new TranslatableString(getKey(@"show.matchmaking.losses"), @"Losses");
+
+        /// <summary>
+        /// "Total Matches"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingPlays => new TranslatableString(getKey(@"show.matchmaking.plays"), @"Total Matches");
+
+        /// <summary>
+        /// "Rank"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingRank => new TranslatableString(getKey(@"show.matchmaking.rank"), @"Rank");
+
+        /// <summary>
+        /// "Rating"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingRating => new TranslatableString(getKey(@"show.matchmaking.rating"), @"Rating");
+
+        /// <summary>
+        /// "Latest Match History"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingRecentHistory => new TranslatableString(getKey(@"show.matchmaking.recent_history"), @"Latest Match History");
+
+        /// <summary>
+        /// "Not enough data to display accurate stats. Play more games!"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingRecentHistoryProvisional => new TranslatableString(getKey(@"show.matchmaking.recent_history_provisional"), @"Not enough data to display accurate stats. Play more games!");
+
+        /// <summary>
+        /// "Tier"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingTier => new TranslatableString(getKey(@"show.matchmaking.tier"), @"Tier");
+
+        /// <summary>
         /// "Ranked Play"
         /// </summary>
         public static LocalisableString ShowMatchmakingTitle => new TranslatableString(getKey(@"show.matchmaking.title"), @"Ranked Play");
+
+        /// <summary>
+        /// "Wins"
+        /// </summary>
+        public static LocalisableString ShowMatchmakingWins => new TranslatableString(getKey(@"show.matchmaking.wins"), @"Wins");
 
         /// <summary>
         /// "They may have changed their username."
@@ -1267,7 +1317,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} forum post|{0} forum posts"
         /// </summary>
-        public static LocalisableString ShowPostCountCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"show.post_count.count"), @"{0} forum post|{0} forum posts", countDelimited);
+        public static LocalisableString ShowPostCountCount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"show.post_count.count"), @"{0} forum post|{0} forum posts", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "Country rank for {0}"
@@ -1295,14 +1345,49 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowRankHighest(LocalisableString rank, LocalisableString date) => new TranslatableString(getKey(@"show.rank.highest"), @"Highest rank: {0} on {1}", rank, date);
 
         /// <summary>
+        /// "Rank is only shown after entering the top 1,000"
+        /// </summary>
+        public static LocalisableString ShowRankKudosuOutsideTop1000 => new TranslatableString(getKey(@"show.rank.kudosu_outside_top_1000"), @"Rank is only shown after entering the top 1,000");
+
+        /// <summary>
+        /// "Kudosu Ranking"
+        /// </summary>
+        public static LocalisableString ShowRankKudosuSimple => new TranslatableString(getKey(@"show.rank.kudosu_simple"), @"Kudosu Ranking");
+
+        /// <summary>
+        /// "A new Star Rating / PP algorithm is {0}."
+        /// </summary>
+        public static LocalisableString ShowScoreProcessingTitle(LocalisableString link) => new TranslatableString(getKey(@"show.score_processing.title"), @"A new Star Rating / PP algorithm is {0}.", link);
+
+        /// <summary>
+        /// "being deployed"
+        /// </summary>
+        public static LocalisableString ShowScoreProcessingTitleLink => new TranslatableString(getKey(@"show.score_processing.title_link"), @"being deployed");
+
+        /// <summary>
+        /// "Recent scores may not be immediately reflected in user profiles."
+        /// </summary>
+        public static LocalisableString ShowScoreProcessingMessage => new TranslatableString(getKey(@"show.score_processing.message"), @"Recent scores may not be immediately reflected in user profiles.");
+
+        /// <summary>
         /// "Top {0}"
         /// </summary>
         public static LocalisableString ShowSeasonStatsDivisionTopPercentage(LocalisableString value) => new TranslatableString(getKey(@"show.season_stats.division_top_percentage"), @"Top {0}", value);
 
         /// <summary>
+        /// "Spotlights"
+        /// </summary>
+        public static LocalisableString ShowSeasonStatsLabel => new TranslatableString(getKey(@"show.season_stats.label"), @"Spotlights");
+
+        /// <summary>
         /// "Total score"
         /// </summary>
         public static LocalisableString ShowSeasonStatsTotalScore => new TranslatableString(getKey(@"show.season_stats.total_score"), @"Total score");
+
+        /// <summary>
+        /// "Solo Play"
+        /// </summary>
+        public static LocalisableString ShowSoloTitle => new TranslatableString(getKey(@"show.solo.title"), @"Solo Play");
 
         /// <summary>
         /// "Hit Accuracy"
@@ -1375,9 +1460,19 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString ShowStatsGraveyardBeatmapsetCount => new TranslatableString(getKey(@"show.stats.graveyard_beatmapset_count"), @"Graveyarded Beatmaps");
 
         /// <summary>
+        /// "Guest Participation Beatmaps"
+        /// </summary>
+        public static LocalisableString ShowStatsGuestBeatmapsetCount => new TranslatableString(getKey(@"show.stats.guest_beatmapset_count"), @"Guest Participation Beatmaps");
+
+        /// <summary>
         /// "Loved Beatmaps"
         /// </summary>
         public static LocalisableString ShowStatsLovedBeatmapsetCount => new TranslatableString(getKey(@"show.stats.loved_beatmapset_count"), @"Loved Beatmaps");
+
+        /// <summary>
+        /// "Nominated Ranked Beatmaps"
+        /// </summary>
+        public static LocalisableString ShowStatsNominatedBeatmapsetCount => new TranslatableString(getKey(@"show.stats.nominated_beatmapset_count"), @"Nominated Ranked Beatmaps");
 
         /// <summary>
         /// "Pending Beatmaps"

@@ -69,7 +69,7 @@
     <value>Tên skin</value>
   </data>
   <data name="skin_layout_editor" xml:space="preserve">
-    <value>Chỉnh sửa giao diện
+    <value>Chỉnh sửa bố cục skin
 </value>
   </data>
   <data name="gameplay_cursor_size" xml:space="preserve">
@@ -88,6 +88,6 @@
     <value>Màu beatmap</value>
   </data>
   <data name="beatmap_hitsounds" xml:space="preserve">
-    <value>Âm đánh của beatmap</value>
+    <value>Tiếng bấm của beatmap</value>
   </data>
 </root>

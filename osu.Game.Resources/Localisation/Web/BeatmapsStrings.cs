@@ -70,6 +70,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DiscussionsKudosuDenied => new TranslatableString(getKey(@"discussions.kudosu_denied"), @"Denied from obtaining kudosu.");
 
         /// <summary>
+        /// "Include replies"
+        /// </summary>
+        public static LocalisableString DiscussionsIncludeReplies => new TranslatableString(getKey(@"discussions.include_replies"), @"Include replies");
+
+        /// <summary>
         /// "This difficulty has been deleted so it may no longer be discussed."
         /// </summary>
         public static LocalisableString DiscussionsMessagePlaceholderDeletedBeatmap => new TranslatableString(getKey(@"discussions.message_placeholder_deleted_beatmap"), @"This difficulty has been deleted so it may no longer be discussed.");
@@ -125,6 +130,11 @@ namespace osu.Game.Resources.Localisation.Web
         public static LocalisableString DiscussionsShowDeleted => new TranslatableString(getKey(@"discussions.show_deleted"), @"Show deleted");
 
         /// <summary>
+        /// "Show other replies"
+        /// </summary>
+        public static LocalisableString DiscussionsShowOtherReplies => new TranslatableString(getKey(@"discussions.show_other_replies"), @"Show other replies");
+
+        /// <summary>
         /// "Discussions"
         /// </summary>
         public static LocalisableString DiscussionsTitle => new TranslatableString(getKey(@"discussions.title"), @"Discussions");
@@ -132,7 +142,7 @@ namespace osu.Game.Resources.Localisation.Web
         /// <summary>
         /// "{0} unresolved issue|{0} unresolved issues"
         /// </summary>
-        public static LocalisableString DiscussionsUnresolvedCount(LocalisableString countDelimited) => new TranslatableString(getKey(@"discussions.unresolved_count"), @"{0} unresolved issue|{0} unresolved issues", countDelimited);
+        public static LocalisableString DiscussionsUnresolvedCount(int countDelimited) => new PluralisableString(new TranslatableString(getKey(@"discussions.unresolved_count"), @"{0} unresolved issue|{0} unresolved issues", countDelimited), countDelimited, '|');
 
         /// <summary>
         /// "Collapse all"
@@ -383,6 +393,11 @@ namespace osu.Game.Resources.Localisation.Web
         /// "If this post starts with a timestamp, it will be shown under Timeline."
         /// </summary>
         public static LocalisableString DiscussionsReviewEmbedTimestampDiff => new TranslatableString(getKey(@"discussions.review.embed.timestamp.diff"), @"If this post starts with a timestamp, it will be shown under Timeline.");
+
+        /// <summary>
+        /// "insert note"
+        /// </summary>
+        public static LocalisableString DiscussionsReviewInsertBlockMapperNote => new TranslatableString(getKey(@"discussions.review.insert-block.mapper_note"), @"insert note");
 
         /// <summary>
         /// "insert paragraph"
