@@ -1,0 +1,12 @@
+Stable UI resource additions for Torii
+
+Source: GooGuTeam/g0v0-resources, tag v2026.1101.0-g0v0 (58c455c).
+Original resource content: copyright ppy Pty Ltd.
+Fork modifications: copyright 2026 GooGuTeam, CC-BY-NC 4.0.
+See https://github.com/GooGuTeam/g0v0-resources/blob/v2026.1101.0-g0v0/LICENCE.md
+
+Maple Mono: copyright 2022 The Maple Mono Project Authors, SIL OFL 1.1.
+Its full licence is retained in osu.Game.Resources/Fonts/MapleMono/LICENSE.txt.
+
+Torii imports the legacy back-button layer, legacy menu-hit sample and Maple
+Mono font assets. Torii branding, icons and unrelated gameplay assets are kept.
